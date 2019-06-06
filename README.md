@@ -1,2 +1,2 @@
 # Training060319_Week1Day3
-![App](Screen Shot 2019-06-06 at 1.16.41 PM.png)
+![App](https://github.com/MonsterLordSlayer/Training060319_Week1Day3/blob/master/Screen%20Shot%202019-06-06%20at%201.16.41%20PM.png)
