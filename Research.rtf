@@ -1,0 +1,62 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red38\green38\blue38;\red28\green28\blue28;
+\red255\green255\blue255;\red0\green0\blue0;\red5\green36\blue44;}
+{\*\expandedcolortbl;;\cssrgb\c13333\c13333\c13333;\cssrgb\c20000\c20000\c20000;\cssrgb\c14510\c14510\c14510;
+\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0\c84314;\cssrgb\c784\c18824\c22745;}
+\margl1440\margr1440\vieww10800\viewh14940\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1) \
+	Singleton is a software design pattern that reduces the installation of a class to a single instance.\
+	Factory is a software design pattern that makes use of a common interface to create a new object without exposing the internal creation logic to the client.\
+	Builder is a software design pattern that separates the construction of a complex object from itself so that the same construction can be used to create different objects of the same type.\
+	Facade is a software design pattern 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+that uses an object that provides a simplified interface to a larger body of code.\
+	Prototype is a software design pattern that specific the kinds of objects to create using an existing instance as prototype and cloning this instance.\
+\
+2)\
+	ART uses the Ahead-Of-Time compilation approach (dex files are complied before being demaned) while Dalvik uses Just-In-Time (JIT) compilation approach (dex files are compiled only when needed).\
+	Dalvik\'92s boot time is faster.\
+	ART uses much more space than Dalvik but is faster overall.\
+3)\
+	
+\f0 \cf3 The Android manifest file provides essential information about your app to the Android system, which the system must have before it can run any of the app's code. It does the following among other things:\
+	\
+	Name the Java package for the application, with the name being a unique identifier for the application\
+	Describe the components of the application- the activities, services, broadcast receivers and content providers of the application.\
+	Determine which processes will host application component.\
+	Declare permissions the application must have in order to interact with other application and permissions the other must have to interact with the application\'92s component\
+	\cf2 List the instrumentation classes that provide profiling and other information as the application is running.\cf3 \
+	Declare the minimum level of the android API the the application requires\
+	List libraries the application linked to.\
+4)\
+	Compile-time 
+\f1 \cf2 is the the time during which the code is being converted to executable while Run-time is the instance where the executable is running.\
+5)\
+	px- Pixels\
+	in- Inches\
+	mm- Millimeter\
+	pt- Points
+\f0 \cf3 \
+	dp- Density-independent Pixels\
+	sp- Scale-independent Pixels\
+6)\
+	Linux Kernel: The foundation of the Android Platform that contains all the low level drivers for various hardware components support. It contains core system service like memory, process management, threading, network stack, driver model, etc.\
+	\
+	Hardware Abstraction Layer: Provide abstraction between hardware and rest of the software stack\
+\
+	Android Runtime: Designed to run apps with limited battery, processing and memory. It contains set of core libraries that enables developers to write Android Apps using Java Programming.\
+\
+	Libraries: Contains C/C++ libraries used by components of Android Systems\
+\
+	Application Framework:  \cf4 \cb5 The Application Framework is a set of services that collectively form the environment in which Android applications run and are managed. The key services are Activity Manager, Content Providers, Resource Manager, Notification Manager, View System, Package Manager, Telephone Manager and Location Manager.\
+	\
+	Application: These comprise both the native applications provided with Android and the third party applications installed by the user.
+\fs33\fsmilli16800 \
+
+\fs24 \cf3 \cb1 7)\
+	\cf0 \cb5 Reflection is an API which is used to examine or modify the behavior of methods, classes, interfaces at runtime.\
+8)\
+	\cf7 \cb5 Gradle models its builds as Directed Acyclic Graphs (DAGs) of tasks (units of work). It configures a set of tasks and wires them together \'97\'a0based on their dependencies \'97\'a0to create that DAG. Once the task graph has been created, Gradle then orders the task that need to run and then execute it.\cf3 \cb1 	}

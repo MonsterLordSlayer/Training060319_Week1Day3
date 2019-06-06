@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Info3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Info4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Info5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Info6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Firstname" />
+
+    <EditText
+        android:id="@+id/Input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lastname" />
+    <EditText
+        android:id="@+id/Input3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street Address" />
+
+    <EditText
+        android:id="@+id/Input4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City" />
+    <EditText
+        android:id="@+id/Input5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State" />
+
+    <EditText
+        android:id="@+id/Input6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zip" />
+    <Button
+        android:id="@+id/btnProcessInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Info"
+        android:onClick="sometitle" />
+
+</LinearLayout>
